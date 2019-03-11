@@ -1,6 +1,6 @@
 {
   "name": "budp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "UDP wrapper for node.js",
   "keywords": [
     "dgram",
@@ -15,11 +15,11 @@
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/budp.js",
   "scripts": {
-    "lint": "eslint lib/ test/ || exit 0",
+    "lint": "eslint lib/ || exit 0",
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "devDependencies": {
-    "bmocha": "^1.0.0"
+    "bmocha": "^1.5.0"
   },
   "engines": {
     "node": ">=8.0.0"
