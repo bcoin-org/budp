@@ -1,6 +1,6 @@
 {
   "name": "budp",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "UDP wrapper for node.js",
   "keywords": [
     "dgram",
